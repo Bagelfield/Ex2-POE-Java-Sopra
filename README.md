@@ -2,3 +2,4 @@
 
 1ère étape : Créer le github
 2ème étape : Correction de bug pour le client de la V0.1
+3ème étape : Faire ce magnifique graphe en enier
