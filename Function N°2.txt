@@ -6,3 +6,8 @@ OPTIONS
 When the repository to clone from is on a local machine, this flag bypasses the normal "Git aware" transport mechanism
  and clones the repository by making a copy of HEAD and everything under objects and refs directories. 
  The files under .git/objects/ directory are hardlinked to save space when possible.
+
+ --no-hardlinks
+
+    Force the cloning process from a repository on a local filesystem to copy the files under the 
+    .git/objects directory instead of using hardlinks. This may be desirable if you are trying to make a back-up of your repository.
