@@ -1,0 +1,8 @@
+OPTIONS
+
+-l
+--local
+
+When the repository to clone from is on a local machine, this flag bypasses the normal "Git aware" transport mechanism
+ and clones the repository by making a copy of HEAD and everything under objects and refs directories. 
+ The files under .git/objects/ directory are hardlinked to save space when possible.
